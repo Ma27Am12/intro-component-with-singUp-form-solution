@@ -1,0 +1,148 @@
+:root{
+--Red: hsl(0, 100%, 74%); 
+--Green: hsl(154, 59%, 51%);
+--GreenShadow: hsl(154, 57%, 40%);
+--GreenHover: hsl(154, 75%, 58%);
+--Blue: hsl(248, 32%, 49%);
+--DarkBlue: hsl(249, 10%, 26%);
+--GrayishBlue: hsl(246, 25%, 90%);
+--White: #fff;
+--black: #000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Main__Container{
+    width: 375px;
+    height: 1050px;
+    margin: 0 auto;
+    background-color: var(--Red);
+    background-image: url(./images/bg-intro-mobile.png);
+}
+
+.Main__Container__text__title{
+    width: 375px;
+    height: 90px;
+    margin-top: 0;
+    padding-top: 5px;
+    color: var(--White);
+    text-align: center;
+    font-size: 1.73em;
+    font-weight: 700;
+}
+
+.Main__Container__discription{
+    width: 375px;
+    height: 140px;
+    margin-top: 41px;
+    padding: 10px;
+    color: var(--GrayishBlue);
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.Main__Container__price{
+    width: 327px;
+    height: 91px;
+    margin: 66px 8px 25px 20px;
+    padding: 26px 77px 21px 77px;
+    border-radius: 10px;
+    color: var(--GrayishBlue);
+    background-color: var(--Blue);
+    box-shadow: 0 10px 10px var(--DarkBlue) ;
+    font-size: 0.95em;
+    font-weight: 400;
+}
+
+.Main__Container__price--style{
+    font-weight: 600;
+    color: var(--White);
+}
+
+.Main__Container__register{
+    width: 330px;
+    height: 480px;
+    margin: 0 23px 0 23px;
+    border-radius: 10px;
+    background-color: var(--White);
+    box-shadow: 0 10px 10px var(--DarkBlue) ;
+}
+
+input{
+    width: 279px;
+    height: 57px;
+    margin: 20px 24px 0 24px;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid var(--GrayishBlue);
+    font-size: 0.96em;
+    font-weight: 600;
+    color: var(--DarkBlue); 
+   /*  background-image: url(./images/icon-error.svg); */
+    background-repeat: no-repeat;
+    background-position: 230px;
+}
+
+.Main__Container__register__firstName,
+.Main__Container__register__LastName,
+.Main__Container__register__Email,
+.Main__Container__register__Password{
+     /*  background-image: url(./images/icon-error.svg); */
+     background-repeat: no-repeat;
+     background-position: 230px;
+}
+
+
+.Main__Container__register__alert--fn, 
+.Main__Container__register__alert--ln, 
+.Main__Container__register__alert--email, 
+.Main__Container__register__alert--password{
+    color:  var(--Red);
+    text-align: center;
+    font-size: 0.85em;
+    font-weight: 400
+}
+
+.Main__Container__register__btn{
+    width: 278px;
+    height: 55px;
+    margin: 25px 25px 0 25px;
+    background-color: var(--Green);
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 0 10px 0 var(--GreenShadow) ;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--GrayishBlue);
+    font-size: 0.95em;
+}
+
+.Main__Container__register__btn:hover{
+    cursor: pointer;
+    background-color: var(--GreenHover);
+    transition: 0.3s;
+}
+
+.Main__Container__register__explain{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.85em;
+    font-weight: 400;
+    color: var(--DarkBlue);
+}
+
+.Main__Container__register__explain--color{
+    color: var(--Red);
+    font-weight: 700;
+}

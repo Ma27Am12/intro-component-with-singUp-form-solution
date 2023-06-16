@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+  <main class="Main__Container">
+    <section class="Main__Container__text">
+      <h2 class="Main__Container__text__title">
+        Learn to code by watching others
+      </h2>
+    </section>
+    <p class="Main__Container__discription">
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. 
+      </p>
+    <section class="Main__Container__price">
+      <span class="Main__Container__price--style">
+        Try it free 7 days
+      </span> then $20/mo. thereafter
+    </section>
+    <form action="" class="Main__Container__register">
+      <input class="Main__Container__register__firstName" type="text" placeholder="First Name ">
+      <p class="Main__Container__register__alert--fn"></p>
+      <input class="Main__Container__register__LastName" type="text" placeholder="Last Name ">
+      <p class="Main__Container__register__alert--ln"></p>
+      <input class="Main__Container__register__Email" type="email" placeholder="Email Address ">
+      <p class="Main__Container__register__alert--email"></p>
+      <input class="Main__Container__register__Password" type="password" placeholder="Password ">
+      <p class="Main__Container__register__alert--password"></p>
+      <button  type="submit" class="Main__Container__register__btn">
+        Claim your free trial
+      </button>
+      <p class="Main__Container__register__explain">
+        By clicking the button, you are agreeing to our 
+        <span class="Main__Container__register__explain--color">
+          Terms and Services
+        </span>
+      </p>
+    </form>
+  </main>
+  <script src="./main.js"></script>
+</body>
+</html>
